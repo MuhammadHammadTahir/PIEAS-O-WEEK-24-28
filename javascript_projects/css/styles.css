@@ -1,0 +1,104 @@
+body{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 3%;
+    background-color: rgb(0, 0, 0);
+    color: #FFFFFF;
+    font-family: sans-serif;
+}   
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0% 87px;
+}
+
+.current-time{
+    float: right;
+    background-color: rgb(240, 248, 255);
+    color: rgb(0, 0, 0);
+    padding: 10px 30px;
+    border-radius: 17px;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.title{
+    font-size: 70px;
+}
+
+.logo{
+    border-radius: 40px;
+}
+
+.break-time{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 90px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-top: 5%;
+    max-height: 100%;
+}
+.department{
+   text-align: center;
+    width: 20%;
+    border-radius: 40px;
+    padding: 60px;
+    margin: 75px;
+    height: 300px;
+}
+
+.department>h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.department>h2{
+    font-size: 35px;
+}
+
+.mechanical{
+    background-color: #3D348B;
+}
+
+.chemical{
+    background-color: #F35B04;
+}
+
+.metallurgy{
+    background-color: #38e588;
+}
+
+.computer{
+    background-color: #F35B04;
+}
+
+.physics{
+    background-color: #7678ed;
+}
+
+.electrical{
+    background-color: #f7b801;
+}
+
+.break{
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
+
+footer>h3{
+    text-align: center;
+    font-size: 35px;
+}
